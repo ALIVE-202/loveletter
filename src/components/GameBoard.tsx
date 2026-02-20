@@ -43,8 +43,8 @@ function PlayerPanel({ name, handCount, isAI }: { name: string; handCount: numbe
       <div className="pp-info">
         <div className="pp-name">{name}</div>
         <div className="pp-badges">
-          <span className="badge badge-green">생존 중</span>
-          <span className="badge badge-blue">손패 {handCount}장</span>
+          <span className="badge badge-rose">생존 중</span>
+          <span className="badge badge-gold">손패 {handCount}장</span>
         </div>
       </div>
     </div>
